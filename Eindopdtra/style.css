@@ -1,0 +1,188 @@
+
+/* NAVBAR STYLES */
+
+
+nav {
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(14, 28, 105)
+    
+  }
+  .nav {
+    padding: 12px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  .nav ul li a:hover {
+    padding: 12px;
+    color: #fc0;
+  }
+  .nav ul li a {
+    margin: 8px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+  .active {
+    border-bottom: 2px solid #d0d7d9;
+  }
+  .nav h2{
+  margin-bottom: 6px;
+  color: #fc0;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: italic;
+  }
+
+  .nav a{
+    margin-bottom: 6px;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: italic;
+    }
+
+    #current{
+      color: #fc0;
+
+      /* PAGES STYLES - HOME*/
+
+    }
+body{
+  background-color: rgb(50, 49, 131);
+  margin: 0;
+}
+
+.home{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.home p{
+
+    line-height: 50px;
+    color: white;
+    margin-top:350px;
+    width: 300px;
+    text-align: center;
+    margin-left: 150px;
+    color: #fc0;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+.pagina1{
+    background-color: white
+}
+    
+img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin-top: 250px;
+    /* shape-outside: circle(50%); */
+    /* float: left; */
+    margin-bottom: 60px; 
+    
+}
+#ikzelf{
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin-top: 250px;
+  margin-left: 140px;
+}
+
+/* PAGES STYLES - LIJSTEN */
+
+.lijst-intro{
+  display: flex;
+  flex-direction: row;
+ 
+
+}
+.lijst-intro h1{
+margin-top: 250px;
+color: #fc0;
+justify-content: center;
+margin-left: 550px;
+}
+
+
+
+.lijst-container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  
+  
+}
+
+.lijst-container ul{
+  margin-top: 100px;
+  margin-left: 190px;
+  border: 7px solid #fc0;
+  border-style: dotted;
+  padding: 10px;}
+  
+
+.lijst-container li{
+  color:#fc0; 
+  list-style: none;
+  font-family: cursive;
+  font-size: 15px;
+  ; 
+  
+}
+/* 
+PAGE STYLES -REFLECTIE */
+
+.reflectie{
+  margin-top: 220px;
+  margin-bottom: 80px;
+  color:#fc0; 
+}
+
+.reflectie h1{
+  margin-bottom: 60px;
+  margin-left:80px ;
+}
+.feedback{
+  color:#fc0; 
+  
+
+}
+
+.feedback h1{
+  margin-bottom: 60px;
+  margin-left:80px ;
+}
+
+.reflectie p{
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: italic;
+  margin-left:580px ;
+}
+
+.feedback p{
+  margin-bottom: 60px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 40px;
+}
+#Jeff{
+margin-left: 480px;
+}
+#Pharrel{
+margin-left: 160px;
+}
