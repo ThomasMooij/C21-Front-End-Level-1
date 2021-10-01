@@ -170,7 +170,7 @@ PAGE STYLES -REFLECTIE */
   color: whitesmoke;
   font-size: 20px;
   font-style: italic;
-  margin-left:580px ;
+  margin-left:80px ;
 }
 
 .feedback p{
@@ -186,3 +186,12 @@ margin-left: 480px;
 #Pharrel{
 margin-left: 160px;
 }
+/* 
+  PAGE STYLES LOGBOEK */
+  .log-sectie{
+    display: flex;
+    flex-direction: row;
+  }
+  .log-sectie p{
+    margin-right: 230px;
+  }
